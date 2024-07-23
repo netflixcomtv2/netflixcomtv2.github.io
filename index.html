@@ -1,14 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>netflix.com/tv2 - www.netflix.com tv2 - netflix upgrade to 2 screens</title>
-    <meta name="description"
-        content="Welcome to Netflix.com/tv2! It's a place where you can find lots of TV shows, movies, documentaries, and Netflix's own shows and movies or ability to watch on up to 2 screens simultaneously. You can choose what you like to watch based on your interests.">
-    <meta name="keywords" content="netflix.com/tv2">
-    <!-- Google tag (gtag.js) -->
+    <meta name='url' content='https://netflixcomtv2.github.io/'>
+    <meta name='keywords' content='Netflix.com/tv2, Netflix Signup, Enter Netflix Code'>
+    <meta name='description' content='Welcome to Netflix.com/tv2! It's a place where you can find lots of TV shows, movies, documentaries, and Netflix's own shows and movies or ability to watch on up to 2 screens simultaneously.'>
+    <meta name='robots' content='index,follow'>
+    <meta property="og:title" content="Netflix.com/tv2 - Watch TV Shows Online, Watch Movies Online"/>
+    <meta property="og:description" content=" Welcome to Netflix.com/tv2! It's a place where you can find lots of TV shows, movies, documentaries, and Netflix's own shows and movies or ability to watch on up to 2 screens simultaneously. />
+    <meta property="og:url" content="https://netflixcomtv2.github.io/">
+    <title>Netflix.com/tv2 - Watch TV Shows Online, Watch Movies Online</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="icon" type="image/x-icon" href="logo.png">
+   <link rel="icon" href="logo.png"/>
+     <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-B32T3MDRDM"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -17,231 +24,161 @@
 
   gtag('config', 'G-B32T3MDRDM');
 </script>
-
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
-        rel="stylesheet">
-
     <style>
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: 'Poppins', sans-serif;
+        *{
+            margin: 0px;
+            padding: 0px;
         }
-
-        .banner {
-            position: relative;
-            text-align: center;
-            color: #fff;
-            background-image: url('netflix tv2.jpg');
-            /* Replace 'your-banner-image.jpg' with the actual path to your banner image */
-            background-size: cover;
-            background-position: center;
-            height: 100vh;
-            /* Full height of the viewport */
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            overflow: hidden;
+        body{
+            background-color: #c2c7cd1f;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 1.2rem;
         }
-
-        .overlay {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-color: rgba(0, 0, 0, 0.7);
-            /* Adjust the last value (0.5) for the desired overlay transparency */
-            z-index: 1;
-        }
-
-        .banner-content {
-            position: relative;
-            z-index: 2;
-        }
-
-        .banner h1 {
-            font-size: 3.5em;
-            margin-bottom: 20px;
-        }
-
-        .cta-button {
-            display: inline-block;
-            padding: 10px 20px;
-            line-height: 34px;
-            font-size: 20px;
-            font-weight: 600;
+        .head a, footer a {
             text-decoration: none;
-            background-color: #B20710;
-            /* Green color, you can change it */
-            color: #fff;
-            border-radius: 5px;
+            color: #000;
         }
-
-        .content {
-            text-align: left;
-            /* Align content to the left */
-            padding: 20px;
+        .head a:hover, footer a:hover {
+            color: red;
         }
-
-        .content h2 {
-            font-size: 2em;
-            margin-bottom: 20px;
-            font-weight: 600;
+        .head{
+            background: #d9d9d9;
+            color: #000;
+            padding: 5px;
+            padding-top: 10px;
+            padding-left: 20px;
         }
-
-        .content p {
-            font-size: 1.2em;
-            line-height: 1.6;
-            margin-bottom: 20px;
+        .head img {
+            height: 30px;
         }
-
-        .content ul {
-            text-align: left;
-            margin-left: 40px;
-            padding-left: 0;
+        .title{
+            font-size: 1.6rem;
         }
-
-        .content li {
-            font-size: 1.2em;
-            line-height: 1.6;
-            margin-bottom: 10px;
+        .container {
+            display: flex;
+            justify-content: space-between;
         }
-
-        .content img {
-            max-width: 30%;
-            height: 70%;
-            margin-bottom: 20px;
+    .container-img {
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
-
-        /* Media Query for Mobile */
-        @media only screen and (max-width: 600px) {
-            .banner h1 {
-                font-size: 2.5em;
-                /* Adjusting font size for smaller screens */
+        .image
+        {
+            height: 80px;
+        }
+        h2
+        {
+            color: #000;
+        }
+        p{
+            padding: 10px;
+        }
+        a{
+            color: #7F1EDC;
+        }
+        a:hover {
+            color: #1C011A;
+        }
+        footer {
+            background: #f0f0f0;
+            padding: 5px;
+            color: #000;
+        }
+        @media screen and (max-width: 800px) {
+            .menu{
+                display: none;
             }
-
-            .cta-button {
-                font-size: 16px;
-                /* Adjusting button font size for smaller screens */
-            }
-
-            .content h2 {
-                font-size: 1.5em;
-                /* Adjusting heading font size for smaller screens */
-            }
-
-            .content p,
-            .content li {
-                font-size: 1em;
-                /* Adjusting paragraph and list item font size for smaller screens */
-            }
-
-            .content ul {
-                margin-left: 20px;
-                /* Adjusting list margin for smaller screens */
-            }
-        }
-
-        /* Additional CSS for FAQ section */
-        .faq-list {
-            margin-top: 20px;
-        }
-
-        .faq-question {
-            font-weight: bold;
-            margin-bottom: 10px;
-        }
-
-        .faq-answer {
-            margin-bottom: 20px;
         }
     </style>
 </head>
-
 <body>
-
-    <div class="banner">
-        <div class="overlay"></div>
-        <div class="banner-content">
-            <h1>netflix.com/tv2 - netflix upgrade to 2 screens</h1>
-            <a href="http://ww0.us?aHR0cHM6Ly9uZXRmbGl4Y29tdHYyLmdpdGh1Yi5pby8=" class="cta-button">GET
-                STARTED NOW</a>
+    <!-- header -->
+    <div class="head">
+        <div class="container align-self-center">
+            <div>
+                <p class="title"><a href="https://netflixcomtv2.github.io/"><strong>Netflix.com/tv2</strong></p>
+            </div>
+            <div class="menu"> 
+                <p><strong><a href="https://netflixcomtv2.github.io/">Home</a></strong></p>
+            </div>
         </div>
     </div>
+    <!-- content -->
+    <div class="container p-3">
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-10 pt-4">
+                <h1 style="text-align:center;">Netflix.com/tv2</h1>
+                <br>
+               <div class="container-img"> <a href="http://ww0.us/?aHR0cHM6Ly9uZXRmbGl4Y29tdHYyLmdpdGh1Yi5pby8="><img src="getstartedhere.png" class="image"></a></div>
+ <br>
+<!-- content -->
+<h2>What is Netflix.com/tv2?</h2>
+<p>Netflix is a subscription-based streaming service renowned for its extensive library of movies, TV shows, documentaries, and original content across various genres and languages.</p>
 
-    <div class="content">
-        <h2>What is Netflix.com/tv2?</h2>
-        <p>Netflix is a subscription-based streaming service renowned for its extensive library of movies, TV shows, documentaries, and original content across various genres and languages.</p>
-        <p>Subscribers can stream on-demand content without interruptions or commercials, accessing a personalized viewing experience through tailored recommendations based on their viewing history and preferences. The platform allows users to create multiple profiles within a single account, facilitating personalized experiences for each household member.</p>
-                <ul>
-            <li><strong> Personalized Viewing Experience:</strong>Netflix offers tailored recommendations based on users' viewing history and preferences, enhancing the streaming experience.</li>
-            <li><strong> Offline Viewing: </strong> Subscribers can download select titles for offline viewing on mobile devices, making entertainment accessible without an internet connection.</li>
-            <li><strong>Netflix Originals: </strong>Exclusive series, films, and documentaries produced by Netflix have gained global popularity, contributing significantly to its success</li>
+<p>Subscribers can stream on-demand content without interruptions or commercials, accessing a personalized viewing experience through tailored recommendations based on their viewing history and preferences. The platform allows users to create multiple profiles within a single account, facilitating personalized experiences for each household member.</p>
 
-            
-        </ul>
-        <h2>How do I get netflix upgrade to 2 screens in my house?</h2>
-        <p>To upgrade your Netflix subscription to allow streaming on 2 screens simultaneously in your house, you can follow these steps:</p>
-        <ul>
-            <li><strong>Log In to Your Netflix Account</strong><br> 
-            Open a web browser and go to the Netflix website netflix.com/tv2. Click on "Sign In" and enter your email address and password to log in to your account.</li>
-            <li><strong>Access Account Settings</strong> <br>Once logged in, hover over or click on your profile icon in the top right corner of the screen. From the dropdown menu, select "Account" to access your account settings.</li>
-            <li><strong>Change Your Plan</strong> <br>In the "Account" section, you will see details of your current subscription plan. Look for the "Plan Details" section and click on "Change Plan" next to your current plan.</li>
-            <li><strong>Select the 2 Screens Plan</strong> <br>You will be presented with a list of available subscription plans. Choose the "Standard" plan, which allows streaming on 2 screens simultaneously.</li>
-            <li><strong>Confirm Changes</strong> <br>After selecting the "Standard" plan, you may see a summary of the changes to your subscription and any price adjustments. Review the changes and click on "Confirm Change" or a similar button to upgrade your plan.</li>
-             <li><strong>Complete the Upgrade</strong> <br>Follow any additional prompts or instructions to complete the upgrade process. Once confirmed, your Netflix subscription will be upgraded, allowing streaming on 2 screens simultaneously in your house.</li>
-        </ul>
-        
-        
-        <div class="content">
-
-        <h2>Where do I enter my netflix com tv2 code?</h2>
-        <p>If you have a code or a promotional offer that you believe is associated with Netflix, you can typically redeem it by following these general steps:</p>
-        <ul>
-            <li><strong>Log In to Your Netflix Account</strong><br> 
-            Open a web browser and go to the official Netflix website www.netflix.com tv2 Click on "Sign In" and enter your email address and password to log in to your account</li>
-            <li><strong>Access Account Settings</strong> <br>Once logged in, hover over or click on your profile icon in the top right corner of the screen. From the dropdown menu, select "Account" to access your account settings.</li>
-            <li><strong>Redeem Promotion or Gift Code</strong> <br>Look for an option that says "Redeem gift card or promo code" or something similar. Enter the code you have received in the provided field.</li>
-            <li><strong>Confirm and Complete</strong> <br>Follow any additional prompts or instructions to confirm and complete the redemption process.</li>
-            
-        </ul>
-
+<p>Personalized Viewing Experience:Netflix offers tailored recommendations based on users' viewing history and preferences, enhancing the streaming experience.
+Offline Viewing: Subscribers can download select titles for offline viewing on mobile devices, making entertainment accessible without an internet connection.
+Netflix Originals: Exclusive series, films, and documentaries produced by Netflix have gained global popularity, contributing significantly to its success.</p>
+<br>
+<h2>How do I get netflix upgrade to 2 screens in my house?</h2>
+<br>
+<strong>To upgrade your Netflix subscription to allow streaming on 2 screens simultaneously in your house, you can follow these steps:</strong>
+<ol>
+<li><strong>Log In to Your Netflix Account</strong></li>
+Open a web browser and go to the Netflix website <a href="https://netflixcomtv2.github.io/">Netflix.com/tv2</a>. Click on "Sign In" and enter your email address and password to log in to your account.
+<li><strong>Access Account Settings</strong></li>
+Once logged in, hover over or click on your profile icon in the top right corner of the screen. From the dropdown menu, select "Account" to access your account settings.
+<li><strong>Change Your Plan</strong></li>
+In the "Account" section, you will see details of your current subscription plan. Look for the "Plan Details" section and click on "Change Plan" next to your current plan.
+<li><strong>Select the 2 Screens Plan</strong></li>
+You will be presented with a list of available subscription plans. Choose the "Standard" plan, which allows streaming on 2 screens simultaneously.
+<li><strong>Confirm Changes</strong></li>
+After selecting the "Standard" plan, you may see a summary of the changes to your subscription and any price adjustments. Review the changes and click on "Confirm Change" or a similar button to upgrade your plan.
+<li><strong>Complete the Upgrade</strong></li>
+Follow any additional prompts or instructions to complete the upgrade process. Once confirmed, your Netflix subscription will be upgraded, allowing streaming on 2 screens simultaneously in your house.
+</ol>
+<br>
+<h2>Where do I enter my Netflix com tv2 code?</h2>
+<strong>If you have a code or a promotional offer that you believe is associated with Netflix, you can typically redeem it by following these general steps:</strong>
+<br>
+<ol>
+<li><strong>Log In to Your Netflix Account</strong></li>
+Open a web browser and go to the official Netflix website <a href="https://netflixcomtv2.github.io/">Netflix.com/tv2</a> Click on "Sign In" and enter your email address and password to log in to your account
+<li><strong>Access Account Settings</strong></li>
+Once logged in, hover over or click on your profile icon in the top right corner of the screen. From the dropdown menu, select "Account" to access your account settings.
+<li><strong>Redeem Promotion or Gift Code</strong></li>
+Look for an option that says "Redeem gift card or promo code" or something similar. Enter the code you have received in the provided field.
+<li><strong>Confirm and Complete</strong></li>
+Follow any additional prompts or instructions to confirm and complete the redemption process.
+<ol>
+<br>
+<h2>Frequently Asked Questions</h2>
+<ol>
+<strong><li>How much does Netflix.com/tv2 cost?</li></strong>
+Netflix.com/tv2 offers flexible subscription plans with varying costs. The cost depends on the selected plan, which determines the number of screens you can watch on simultaneously and whether you have access to HD or Ultra HD content. Check the latest pricing and plans on the Netflix website.
+<strong><li>Can I cancel my Netflix.com/tv2 subscription anytime?</li></strong>
+Yes, Netflix.com/tv2 allows subscribers to cancel their subscription at any time without facing any cancellation fees. You can cancel your subscription through your account settings on the Netflix website.
+<strong><li>Does Netflix.com/tv2 offer a free trial?</li></strong>
+Netflix.com/tv2 occasionally offers a free trial period for new subscribers. However, the availability of free trials may vary by region and promotional periods. Check the Netflix website for any ongoing promotions or free trial offers.
+<strong><li>Can I download shows and movies from Netflix.com/tv2?</li></strong>
+Yes, Netflix.com/tv2 allows subscribers to download select shows and movies for offline viewing on compatible devices. This feature is available on the Netflix app for mobile devices and tablets. Not all titles are available for download due to licensing agreements.
+<strong><li>Is Netflix.com/tv2 available worldwide?</li></strong>
+Netflix.com/tv2 is available in many countries around the world, but the available content may vary depending on your location. Netflix continuously expands its global reach, but licensing agreements and regional restrictions may affect the availability of certain shows and movies in specific countries.
+<strong><li>How many devices can I watch Netflix.com/tv2 on simultaneously?</li></strong>
+The number of devices you can watch Netflix.com/tv2 on simultaneously depends on your chosen subscription plan. Netflix offers different plans with varying numbers of simultaneous streams. The Basic plan allows streaming on one screen at a time, the Standard plan allows two screens, and the Premium plan allows four screens.
+</ol>
+ <br>
+            </div>
+            <div class="col-md-1"></div>
+        </div>
     </div>
-
-        <h2>What to watch on Netflix right now?</h2>
-    <img src="Files of the Unexplained.jpg" alt="Files of the Unexplained: Season 1" style="height: 250px;">
-    <img src="3 Body Problem.jpg" alt="3 Body Problem: Season 1" style="height: 250px;">
-    <img src="Is It Cake.jpg" alt="Is It Cake?: Season 3" style="height: 250px;">
-    <img src="bad dinosaurs.jpg" alt="Bad Dinosaurs: Season 1" style="height: 250px;">
-    <img src="The Gentlemen.jpg" alt="The Gentlemen: Season 1" style="height: 250px;">
-    <img src="vikings netflix.jpg" alt="Vikings: Season 1" style="height: 250px;">
-</div>
-
-    <h2>Frequently Asked Questions</h2>
-
-    <div class="content faq-list">
-        <dl>
-            <dt class="faq-question">How much does Netflix.com/tv2 cost?</dt>
-            <dd class="faq-answer">Netflix.com/tv2 offers flexible subscription plans with varying costs. The cost depends on the selected plan, which determines the number of screens you can watch on simultaneously and whether you have access to HD or Ultra HD content. Check the latest pricing and plans on the Netflix website.</dd>
-
-            <dt class="faq-question">Can I cancel my Netflix.com/tv2 subscription anytime?</dt>
-            <dd class="faq-answer">Yes, Netflix.com/tv2 allows subscribers to cancel their subscription at any time without facing any cancellation fees. You can cancel your subscription through your account settings on the Netflix website.</dd>
-
-            <dt class="faq-question">Does Netflix.com/tv2 offer a free trial?</dt>
-            <dd class="faq-answer">Netflix.com/tv2 occasionally offers a free trial period for new subscribers. However, the availability of free trials may vary by region and promotional periods. Check the Netflix website for any ongoing promotions or free trial offers.</dd>
-
-            <dt class="faq-question">Can I download shows and movies from Netflix.com/tv2?</dt>
-            <dd class="faq-answer">Yes, Netflix.com/tv2 allows subscribers to download select shows and movies for offline viewing on compatible devices. This feature is available on the Netflix app for mobile devices and tablets. Not all titles are available for download due to licensing agreements.</dd>
-
-            <dt class="faq-question">Is Netflix.com/tv2 available worldwide?</dt>
-            <dd class="faq-answer">Netflix.com/tv2 is available in many countries around the world, but the available content may vary depending on your location. Netflix continuously expands its global reach, but licensing agreements and regional restrictions may affect the availability of certain shows and movies in specific countries.</dd>
-
-            <dt class="faq-question">How many devices can I watch Netflix.com/tv2 on simultaneously?</dt>
-            <dd class="faq-answer">The number of devices you can watch Netflix.com/tv2 on simultaneously depends on your chosen subscription plan. Netflix offers different plans with varying numbers of simultaneous streams. The Basic plan allows streaming on one screen at a time, the Standard plan allows two screens, and the Premium plan allows four screens.</dd>
-        </dl>
-    </div>
-
+     <footer>
+        <div class="text-center">
+            <strong><p>© 2024 • All Rights Reserved • <a href="https://netflixcomtv2.github.io/">Netflix.com/tv2</a></p></strong>
+        </div>
+    </footer>
 </body>
-
 </html>
